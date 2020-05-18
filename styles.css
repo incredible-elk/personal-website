@@ -1,0 +1,8 @@
+body {
+  font-family: sans-serif;
+  font-size: 112.5%; /* entspricht 18px */
+  color: #333;
+  background-color: #fefefe;
+  max-width: 1080px;
+  margin: 0 auto; /* auto -> zentriert Webseite */
+}
