@@ -1,8 +1,23 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 112.5%; /* entspricht 18px */
+  line-height: 1.5;
   color: #333;
   background-color: #fefefe;
   max-width: 1080px;
   margin: 0 auto; /* auto -> zentriert Webseite */
+}
+
+article {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 4px dotted;
 }
