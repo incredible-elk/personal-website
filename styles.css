@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 112.5%; /* entspricht 18px */
@@ -19,5 +23,13 @@ h1 {
 
 a {
   text-decoration: none;
-  border-bottom: 4px dotted;
+  border-bottom: 4px none;
+}
+
+.box {
+  padding: 20px 30px;
+  margin: 40px 10px;
+  background: salmon;
+  border: yellow dotted 10px;
+  width: 75%;
 }
